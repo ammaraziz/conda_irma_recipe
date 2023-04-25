@@ -1,5 +1,5 @@
 {% set name = "IRMA" %}
-{% set version = "1.0.3-rsv" %}
+{% set version = "1.0.3.rsv" %}
 {% set hash_type = "sha256" %}
 {% set hash_value = "6F6DA4F9FAFDF3FC6A6CA5C8506DE0790C6BF0B4BC26E86504285FD1EF18842D" %}
 
