@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://wonder.cdc.gov/amd/flu/irma/flu-amd-202209.zip
+  url: https://github.com/ammaraziz/conda_irma_recipe/raw/main/flu-amd-rsv.7z
   {{ hash_type }}: {{ hash_value }}
   patches:
     - irma-fix-bin-cmds.patch
