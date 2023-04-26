@@ -40,7 +40,7 @@ test:
     - test2.fastq
 
 about:
-  home: https://wonder.cdc.gov/amd/flu/irma/
+  home: https://github.com/ammaraziz/wfi
   license: GNU General Public License v3 or later (GPLv3+)
-  summary: "IRMA: Iterative Refinement Meta-Assembler for the robust assembly, variant calling, and phasing of highly variable RNA viruses."
+  summary: "IRMA v1.0.3 - modified to include RSV"
 license_family: GPL3
