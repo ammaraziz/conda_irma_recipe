@@ -1,14 +1,14 @@
 {% set name = "IRMA" %}
 {% set version = "1.0.3.rsv" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "6f6da4f9fafdf3fc6a6ca5c8506de0790c6bf0b4bc26e86504285fd1ef18842d" %}
+{% set hash_value = "64a71f6359d411f880d179833be117e0c0f5c05158e668d5d423bd5e4ba010c3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/ammaraziz/conda_irma_recipe/raw/main/flu-amd-rsv.7z
+  url: https://github.com/ammaraziz/conda_irma_recipe/raw/main/flu-amd-rsv.zip
   {{ hash_type }}: {{ hash_value }}
   patches:
     - irma-fix-bin-cmds.patch
