@@ -1,7 +1,7 @@
 {% set name = "IRMA" %}
 {% set version = "1.0.3.rsv" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "45325e4c941d6109b94fc8fc55df25d4d4521c227fdf42c0fc4df00f2861aa5c" %}
+{% set hash_value = "6e912d6e469a51c154dc1c1521e79a7b2f7950292ba1f000916102a30b66c1c0" %}
 
 package:
   name: {{ name|lower }}
@@ -33,11 +33,6 @@ requirements:
     - muscle >=3.8.1551
     - minimap2 >=2.17
     - zip >=3.0
-
-test:
-  files:
-    - test1.fa
-    - test2.fastq
 
 about:
   home: https://github.com/ammaraziz/wfi
