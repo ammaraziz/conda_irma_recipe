@@ -1,7 +1,7 @@
 {% set name = "IRMA" %}
 {% set version = "1.0.3.rsv" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "6e912d6e469a51c154dc1c1521e79a7b2f7950292ba1f000916102a30b66c1c0" %}
+{% set hash_value = "d1d26b39cd364e4257c3b25eb979c743e17b7ed87db00598a9386bf818dbab9c" %}
 
 package:
   name: {{ name|lower }}
